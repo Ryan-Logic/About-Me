@@ -1,0 +1,46 @@
+body {
+  background-color: lightblue;
+  font-size: 18px;
+  font-family: helvetica;
+}
+
+img {
+  border-style:double;
+  width:300px;
+  length:300px;
+}
+
+h1 {
+  text-align:center;
+  border-style:double;
+  font-family: cursive;
+}
+
+.p1 {
+  text-align:center;
+}
+
+h1:hover, h2:hover{
+  color:red;
+}
+
+img:hover{
+  width:25%;
+}
+
+img.drop-shadow:hover{
+  filter:drop-shadow(10px 10px 10px red);
+}
+
+ol{
+  list-style:none;
+}
+
+
+h2 {
+  text-decoration:underline;
+}
+
+.hidden{
+  visibility:hidden;
+}
